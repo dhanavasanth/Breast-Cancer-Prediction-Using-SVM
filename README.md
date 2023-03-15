@@ -47,3 +47,14 @@ From there importing data `datasets.load_breast_cancer()`.
 -  Getting the important features from the data's
 
 ![App Screenshot](images/corelation.png)
+
+
+## Train - Test - Split
+
+To run tests, run the following command
+
+It is essential for an machine learning model to go for test data before training the original data to  avoid overfitting and better accuracy
+
+```bash
+  X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=1)
+```
