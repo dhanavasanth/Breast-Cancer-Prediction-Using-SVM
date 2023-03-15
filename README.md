@@ -58,3 +58,4 @@ It is essential for an machine learning model to go for test data before trainin
 ```bash
   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=1)
 ```
+##Getting the prediction 
