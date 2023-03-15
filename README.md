@@ -39,3 +39,11 @@ From there importing data `datasets.load_breast_cancer()`.
 
 ![App Screenshot](images/df_data.png)
 
+## Exploratory Data Analysis
+- Understanding the data using pandas "describe" , "info" methods
+- Let's do the required data cleaning process like droping or filling null values
+-  create a analytical study using matplotlib visualization 
+-  create a co-relation metrics toward each data features 
+-  Getting the important features from the data's
+
+![App Screenshot](images/corelation.png)
