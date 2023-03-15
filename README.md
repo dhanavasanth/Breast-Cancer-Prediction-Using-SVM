@@ -5,9 +5,9 @@
 
 ## Classification of Breast Cancer using ML 
 
-By using a best fit Machine Learning Algorithmic model (Support Vector Machine) to classify where the patient is classified with one of Cancer or not ,
+     By using a best fit Machine Learning Algorithmic model (Support Vector Machine) to classify where the patient is classified with one of Cancer or not ,
     
-- Benign   --> for not a Cancer , denoted by  "1"
-- Malignant --> as a Cancer , denoted by  "0"
+    - Benign   --> for not a Cancer , denoted by  "1"
+    - Malignant --> as a Cancer , denoted by  "0"
 
 
