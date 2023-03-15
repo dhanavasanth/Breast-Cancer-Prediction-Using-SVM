@@ -75,3 +75,6 @@ Getting accuracy score and other metric scores
   f1 = f1_score(y_test, y_pred)
   auc_roc = roc_auc_score(y_test, y_pred)
 ```
+## Conclusion 
+Thus, having a better prediction we can use grid search to get the bet fit parameters too.
+hence the algorithm gets a better understanding towards our loaded data
