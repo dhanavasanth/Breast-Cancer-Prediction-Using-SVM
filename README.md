@@ -37,5 +37,5 @@ From there importing data `datasets.load_breast_cancer()`.
 
 ## Having look at Data-set
 
-![App Screenshot](src = "images/df_data.png")
+![App Screenshot](images/df_data.png)
 
