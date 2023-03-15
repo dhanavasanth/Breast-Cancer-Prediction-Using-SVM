@@ -11,7 +11,7 @@
 
 ## Deployment
 
-To deploy this project run
+Depending Libraries
 
 ```bash
   import sklearn
@@ -25,3 +25,17 @@ To deploy this project run
   from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
   from sklearn.model_selection import GridSearchCV
 ```
+
+## Loading Data-set
+
+Load the breast cancer Dataset from sklearn!
+
+See `from sklearn import datasets` this has n number of data's.
+
+From there importing data `datasets.load_breast_cancer()`.
+
+
+## Having look at Data-set
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
