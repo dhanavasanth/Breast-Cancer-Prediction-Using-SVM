@@ -58,4 +58,20 @@ It is essential for an machine learning model to go for test data before trainin
 ```bash
   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=1)
 ```
-##Getting the prediction 
+## Getting the prediction with Test - Data
+
+```bash
+Fitting Train data
+  classifier = SVC(kernel='rbf', C=1, gamma='scale', random_state=12)
+  classifier.fit(X_train, y_train)
+  
+Make predicttions on train data
+  y_pred = classifier.predict(X_test)
+  
+Getting accuracy score and other metric scores
+  accuracy = accuracy_score(y_test, y_pred)
+  precision = precision_score(y_test, y_pred)
+  recall = recall_score(y_test, y_pred)
+  f1 = f1_score(y_test, y_pred)
+  auc_roc = roc_auc_score(y_test, y_pred)
+```
